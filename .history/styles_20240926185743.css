@@ -48,4 +48,3 @@ position: absolute;
 mix-blend-mode: lighten;
 animation: slide var(--star-life) ease-in forwards;
 }
-

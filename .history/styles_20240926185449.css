@@ -26,26 +26,5 @@ text-align: center;
 
 }
 .star{
-    --star-size:50px
-;
---start-life:5s;
---start-left:0px
-;
---start-top:0px;
---end-left:0px;
---end-top:0px;
-
---star-color:#f1c40f;
-width: var(--star-size);
-
-
-;
-height: var(--star-size);
-left: var(--end-left);
-top: var(--start-top);
-background: var(--star-color);
-position: absolute;
-mix-blend-mode: lighten;
-animation: slide var(--star-life) ease-in forwards;
+    --star-size:
 }
-
