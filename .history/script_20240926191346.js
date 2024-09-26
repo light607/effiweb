@@ -35,26 +35,4 @@ const Start =class{
         this.star.style.setProperty("--star-size", this.size + "px");
         this.star.style.setProperty("--star-color", this.randomRainbowColor());
       }
-      
-  draw() {
-    sparkle.appendChild(this.star);
-  }
-
-  pop() {
-    sparkle.removeChild(this.star);
-  }
-
-  random(max, min) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-  
-  randomRainbowColor(){
-    return "hsla("+this.random(360,0)+", 100%, 50%, 1)";
-  }
-
-  randomMinus() {
-    return Math.random() > 0.5 ? 1 : -1;
-  }
     }
-    ;
-    
