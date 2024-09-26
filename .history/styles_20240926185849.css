@@ -51,15 +51,8 @@ animation: slide var(--star-life) ease-in forwards;
 
 @keyframes slide {
     0%{
-        left:var(--start-left);
-        top:var(--start-top);
-    transform: rotate(0deg);
+        left:var(--start-left)
+        top
     }
-100%{
-    left: var(--end-left);
-    top: var(--end-top);
-    transform:rotate(calc(180deg * var(--star-life-num))) scale(0.5);
-opacity: 1;
-}
     
 }
